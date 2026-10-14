@@ -8,4 +8,4 @@ We're testing our animation program on crowntail fins, and the first flare did n
 Crowntails are coming to Little Bettas!
 #LittleBettas #cozygames
 What's the funniest thing that ever went wrong in your project?
-Notas: crowntail NO esta en el juego (feature futura): "coming", nunca "available". No mencionar IA.
+Notas: crowntail NO esta en el juego (feature futura): "coming", nunca "available".
