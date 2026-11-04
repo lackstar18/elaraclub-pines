@@ -1,0 +1,31 @@
+:root{--bg:#fbf6ef;--card:#fffdf9;--ink:#3e322e;--muted:#7a6a62;--lila:#7b6bb5;--line:#eadfd3}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Nunito",system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--lila)}img{max-width:100%;height:auto;display:block}
+header,main,footer{max-width:1040px;margin:0 auto;padding:0 16px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:18px;padding-bottom:6px;flex-wrap:wrap}
+.logo{font:700 15px/1 "Nunito",sans-serif;letter-spacing:.3em;color:var(--lila);text-decoration:none}
+nav a{margin-left:14px;font-weight:700;text-decoration:none}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;line-height:1.15;margin:.4em 0 .3em}
+h1{font-size:clamp(32px,6vw,52px)}h2{font-size:clamp(26px,4vw,34px)}h3{font-size:22px}
+.lead{font-size:19px;color:var(--muted);margin-top:0}
+.hero{padding:28px 0 8px}
+.cat{margin:36px 0 8px;padding-left:14px;border-left:6px solid var(--c)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;display:flex;flex-direction:column}
+.card img{aspect-ratio:1/1;object-fit:cover}
+.card div{padding:12px 14px 16px}.card h3{margin:0 0 4px;font-size:20px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.tag{display:inline-block;font-size:13px;font-weight:700;color:#fff;background:var(--c);border-radius:99px;padding:3px 11px;margin-bottom:6px}
+.prod{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;margin-top:12px}
+.prod>img,.free img{border-radius:18px;border:1px solid var(--line)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.btn{display:inline-block;padding:12px 20px;border-radius:99px;font-weight:800;text-decoration:none;color:#fff;background:var(--c)}
+.btn.alt{background:var(--card);color:var(--ink);border:2px solid var(--c)}
+.btn.off{background:#cfc6be;pointer-events:none}
+.price{font-size:22px;font-weight:800}
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 22px 14px;margin:26px 0}
+.free{display:grid;grid-template-columns:220px 1fr;gap:22px;align-items:center}
+.langs{color:var(--muted)}
+footer{margin-top:48px;padding-bottom:40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:18px}
+@media (max-width:720px){.prod,.free{grid-template-columns:1fr}.free img{max-width:260px}}

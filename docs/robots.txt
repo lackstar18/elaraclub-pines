@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lackstar18.github.io/elaraclub-pines/sitemap.xml
